@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://suizman.org/posts/cyberpunk-your-desktop/</loc>
+    <lastmod>2021-01-19T21:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suizman.org/posts/</loc>
+    <lastmod>2021-01-19T21:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suizman.org/</loc>
+    <lastmod>2021-01-19T21:23:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suizman.org/posts/intro/</loc>
+    <lastmod>2019-10-01T21:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suizman.org/about/</loc>
+    <lastmod>2019-03-30T18:58:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://suizman.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://suizman.org/tags/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>suizman.org</title>
+    <link>https://suizman.org/</link>
+    <description>Recent content on suizman.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Jan 2021 21:23:40 +0100</lastBuildDate>
+    
+	<atom:link href="https://suizman.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cyberpunk your desktop</title>
+      <link>https://suizman.org/posts/cyberpunk-your-desktop/</link>
+      <pubDate>Tue, 19 Jan 2021 21:23:40 +0100</pubDate>
+      
+      <guid>https://suizman.org/posts/cyberpunk-your-desktop/</guid>
+      <description>Last month everyone was euphoric about the release of Cyberpunk 2077. And as a good gamer I&amp;rsquo;ve also pre-ordered my copy of the game. The game esthetics are absolutely stunning without doubt. I like it so much that I&amp;rsquo;ve decided to search if there are any good themes out there for Linux. And yes, there is some great work available in this repo Cyberpunk-Neon except for one thing, I use Fish shell and Kitty terminal.</description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>https://suizman.org/posts/intro/</link>
+      <pubDate>Tue, 01 Oct 2019 21:00:00 +0100</pubDate>
+      
+      <guid>https://suizman.org/posts/intro/</guid>
+      <description>TL;DR suizman &amp;gt; DevOps engineer, gamer and Golang newbie 
+My name is Martin Evgeniev and I was born in Bulgaria in a relatively small town called Sliven. My passion for computers awoke at the age of eight. Me and my older brother used to visit the local cyber, which was actually a storage room. At the beginning, our only target was to play video games (Doom, Quake&amp;hellip;). I&amp;rsquo;m sure they sound familiar to many of you.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://suizman.org/about/</link>
+      <pubDate>Sat, 30 Mar 2019 18:58:00 +0100</pubDate>
+      
+      <guid>https://suizman.org/about/</guid>
+      <description>A passionate Computer Engineer with a track record in System Administration, Continuous Integration, Infrastructure Management and automation. Also an Go programming language padawan. Gamer, hardware enthusiast, photography &amp;lt;newbie&amp;gt; and MTB freak.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+/*!
+ *  Hack typeface https://github.com/source-foundry/Hack
+ *  License: https://github.com/source-foundry/Hack/blob/master/LICENSE.md
+ */
+/* FONT PATHS
+ * -------------------------- */
+ @font-face {
+  font-family: 'hack-regular';
+  src: url('../fonts/hack-regular.woff2?sha=3114f1256') format('woff2'), 
+       url('../fonts/hack-regular.woff?sha=3114f1256') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hack-bold';
+  src: url('../fonts/hack-bold.woff2?sha=3114f1256') format('woff2'), 
+       url('../fonts/hack-bold.woff?sha=3114f1256') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hack-italic';
+  src: url('../fonts/hack-italic.woff2?sha=3114f1256') format('woff2'), 
+       url('../fonts/hack-italic.woff?sha=3114f1256') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'hack-bolditalic';
+  src: url('../fonts/hack-bolditalic.woff2?sha=3114f1256') format('woff2'), 
+       url('../fonts/hack-bolditalic.woff?sha=3114f1256') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+h1{
+  font-family: hack-bold, monospace;
+}
+
+a{
+  font-family: hack-bold, monospace;
+}

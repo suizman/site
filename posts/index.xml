@@ -1,0 +1,164 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on suizman.org</title>
+        <link>https://suizman.org/posts/</link>
+        <description>Recent content in Posts on suizman.org</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 19 Jan 2021 21:23:40 +0100</lastBuildDate>
+        <atom:link href="https://suizman.org/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Cyberpunk your desktop</title>
+            <link>https://suizman.org/posts/cyberpunk-your-desktop/</link>
+            <pubDate>Tue, 19 Jan 2021 21:23:40 +0100</pubDate>
+            
+            <guid>https://suizman.org/posts/cyberpunk-your-desktop/</guid>
+            <description>Last month everyone was euphoric about the release of Cyberpunk 2077. And as a good gamer I&amp;rsquo;ve also pre-ordered my copy of the game. The game esthetics are absolutely stunning without doubt. I like it so much that I&amp;rsquo;ve decided to search if there are any good themes out there for Linux. And yes, there is some great work available in this repo Cyberpunk-Neon except for one thing, I use Fish shell and Kitty terminal.</description>
+            <content type="html"><![CDATA[
+
+<p>Last month everyone was euphoric about the release of Cyberpunk 2077. And as a good gamer I&rsquo;ve also pre-ordered my copy of the game. The game esthetics are absolutely stunning without doubt.
+I like it so much that I&rsquo;ve decided to search if there are any good themes out there for Linux. And yes, there is some great work available in this repo <a href="https://github.com/Roboron3042/Cyberpunk-Neon">Cyberpunk-Neon</a>
+except for one thing, I use Fish shell and Kitty terminal.</p>
+
+<h3 id="kitty">Kitty</h3>
+
+<p>Ok, no need for panic, we can easily workaround this by using the terminal <a href="https://github.com/Roboron3042/Cyberpunk-Neon/blob/master/terminal/terminal-palette">palette</a>
+available in the repo if you use some other terminal in your setup. So, edit your &ldquo;<strong><em>~/.config/kitty/kitty.conf</em></strong>&rdquo; and put this lines inside &ldquo;Color scheme&rdquo;:</p>
+
+<pre><code class="language-bash">foreground #0abdc6                                                                                                                                                                                             
+background #000b1e
+
+color0 #123e7c
+color8 #1c61c2
+
+#: black
+color1 #ff0000
+color9 #ff0000
+
+#: red
+color2  #d300c4
+color10 #d300c4
+
+#: green
+color3  #f57800
+color11 #f57800
+
+#: yellow
+color4  #123e7c
+color12 #00ff00
+
+#: blue
+color5  #711c91
+color13 #711c91
+
+#: magenta
+color6  #0abdc6
+color14 #0abdc6
+
+#: cyan
+color7  #d7d7d5
+color15 #d7d7d5
+</code></pre>
+
+<p>Save the changes, reopen the terminal and your Kitty is ready to Mew!</p>
+
+<p><img src="/img/cyberpunk-your-terminal/htop.png" alt="htop" /></p>
+
+<p>Just look how beautiful are now your terminal colors.</p>
+
+<h3 id="fish-shell">Fish shell</h3>
+
+<p>Now lets switch to Fish. I find the perfect glue for terminal colors and it&rsquo;s called <a href="https://github.com/yangwao/omf-theme-slavic-cat">Slavic Cat</a>. You can install the theme using OhMyFish plugin.</p>
+
+<p>Just run -&gt; &ldquo;<strong><em>omf install slavic-cat</em></strong>&rdquo; reload fish. Enjoy!</p>
+
+<p><img src="/img/cyberpunk-your-terminal/fish.png" alt="fish" /></p>
+
+<p>If you don&rsquo;t have OMF install it via -&gt; &ldquo;<strong><em>curl -L <a href="https://get.oh-my.fish">https://get.oh-my.fish</a> | fish</em></strong>&ldquo;</p>
+
+<h3 id="vim">Vim</h3>
+
+<p>For vim follow the steps bellow to download the theme and configure your <strong><em>˜/.vimrc</em></strong></p>
+
+<pre><code class="language-bash"># Download the theme
+$ curl -L https://raw.githubusercontent.com/Roboron3042/Cyberpunk-Neon/master/terminal/vim/cyberpunk-neon.vim -o ~/.vim/colors/cyberpunk-neon.vim
+
+# Add this lines to your ˜/.vimrc
+colorscheme cyberpunk-neon
+set termguicolors
+# :wq, And Voilà!
+</code></pre>
+
+<p><img src="/img/cyberpunk-your-terminal/vim.png" alt="fish" /></p>
+
+<h3 id="bonus">Bonus</h3>
+
+<h4 id="firefox">Firefox</h4>
+
+<p>The theme proposed for Firefox in Cyberpunk Neon repo is not bad but in my opinion it has serious issues with the the tab text and background color. I found another theme out there which is almost identical.
+Check it out <a href="https://addons.mozilla.org/en-US/firefox/addon/cyberpunkish/">here</a></p>
+
+<p><img src="/img/cyberpunk-your-terminal/firefox.png" alt="fish" /></p>
+
+<h4 id="visual-studio-code">Visual Studio Code</h4>
+
+<p>If you also you use VS Code this <a href="https://marketplace.visualstudio.com/items?itemName=max-SS.cyberpunk">theme</a> is impressive. You can choose between three different skins. But if you want to be consistent with
+the previous customization I recommend you to use the default &ldquo;Cyberpunk&rdquo;. SCARLET protocol is also cool but still in beta and need some improvements to be less intrusive to the eye.</p>
+
+<p><img src="/img/cyberpunk-your-terminal/vscode.png" alt="VSCode theme" /></p>
+
+<h4 id="wallpapers">Wallpapers</h4>
+
+<p><img src="https://wallpapercave.com/wp/wp6823984.jpg" alt="Night city" /></p>
+
+<p><img src="https://wallpapercave.com/wp/wp6813033.jpg" alt="Cyberpunk neon" /></p>
+
+<p>These are just a few samples find more at the original <a href="https://wallpapercave.com/4k-cyberpunk-2077-wallpapers">source</a>.</p>
+
+<p>I hope you enjoy this tweaks to beautify your terminal and desktop.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Intro</title>
+            <link>https://suizman.org/posts/intro/</link>
+            <pubDate>Tue, 01 Oct 2019 21:00:00 +0100</pubDate>
+            
+            <guid>https://suizman.org/posts/intro/</guid>
+            <description>TL;DR suizman &amp;gt; DevOps engineer, gamer and Golang newbie 
+My name is Martin Evgeniev and I was born in Bulgaria in a relatively small town called Sliven. My passion for computers awoke at the age of eight. Me and my older brother used to visit the local cyber, which was actually a storage room. At the beginning, our only target was to play video games (Doom, Quake&amp;hellip;). I&amp;rsquo;m sure they sound familiar to many of you.</description>
+            <content type="html"><![CDATA[<p><code>
+TL;DR suizman &gt; DevOps engineer, gamer and Golang newbie
+</code></p>
+
+<p>My name is <strong>Martin Evgeniev</strong> and I was born in <strong>Bulgaria</strong> in a relatively small town called Sliven. My passion for computers awoke at the age of eight. Me and my older brother used to visit the local cyber, which was actually a storage room. At the beginning, our only target was to play video games (<strong>Doom, Quake</strong>&hellip;). I&rsquo;m sure they sound familiar to many of you. After a few months spending a lot of time at the cyber, new games arrived. I’d started asking questions to the owner about how he put the games inside the computer. He explained to us basic stuff about the computers hardware and how to install programs and games. The machines were <strong>Pentium I</strong> running at 133MHz with <strong>Windows 95</strong> installed.</p>
+
+<p>After that moment, we started asking every day to our parents that we wanted a computer at home. Finally, after a few years of useless efforts, our parents agreed to buy us a <strong>PC</strong>. It was a brand new <strong>Pentium II MMX</strong>, 64MB RAM,10GB HDD, Voodoo2 GPU, with a kick-ass <strong>Sound Blaster</strong> sound card. We also bought Windows 95 book to learn about new stuff to do with our computer. It was <strong>1998</strong>, the year of <strong>StarCraft</strong> and <strong>Half-Life</strong>. As you can expect I played all day and all night long without paying much attention to books&hellip; Yeah, sure I had a <strong>PC</strong> at home and learned how to install software, basic system management, and hardware knowledge good enough to clean and change the components by my own, but it seems I was no longer interested in learning most advanced computer skills, like programming.</p>
+
+<p>A couple of years later at the age of eleven, my family moved to <strong>Madrid, Spain</strong>. At the beginning. I had no more friends than my own brother, because the language barrier. Both of us started buying specialized magazines about computers and, of course, video games. But this time I&rsquo;d started to take serious learning how computer hardware works. Our parents managed to buy us a new PC, this time it was <strong>Pentium 4 Prescott</strong> at 2.8GHz with 512MB RAM. I remember reading the same magazines more than once. <strong>2004</strong> was a great year for gaming. Games like <strong>Half-Life 2</strong> and Doom 3 were released, along with new players in the FPS genre (<strong>FarCry, Painkiller</strong>). That was also a big jump for the hardware scene and <strong>Microsoft&rsquo;s DirectX</strong>. I really enjoyed following the gaming industry evolution besides the new hardware innovations. From that moment I&rsquo;d realized that I wanted to study a computers grade <strong>ASAP</strong>, but first I&rsquo;d to finish mid-school studies. Meanwhile, I continued expanding my <strong>Hardware</strong> and <strong>Software</strong> knowledge.</p>
+
+<p>Finally, in <strong>2007</strong> I started studying a general-purpose computer degree. Back there, I&rsquo;d got solid knowledge about how computer hardware works and skills in <strong>Windows</strong> environments, but man, I sucked at <strong>Linux</strong>. I&rsquo;m not lying if I tell you that until that moment I&rsquo;d only heard or read the word Linux just 5 times or less&hellip; Of course, I was there to learn, that&rsquo;s what people do at school.</p>
+
+<p>The first Linux distribution I ever installed was <strong>Fedora 7</strong>, at the same time learning how to create a virtual machine using <strong>VMware</strong>. I&rsquo;ve learned a lot of new <strong>OS</strong> and servers related stuff they also teach us some basic <strong>HTML</strong> + <strong>CSS</strong> skills and scripting in <strong>bash</strong>. The one class I&rsquo;ve really enjoyed was <strong>Networks</strong>, I still use some tricks learned that days.</p>
+
+<p>The &ldquo;worst&rdquo; thing, at least for me was the hardware related part. It didn&rsquo;t expand much more my knowledge at that time. But hey, it&rsquo;s not that bad to already know some of the course content, it can save you up some reading.</p>
+
+<p>At the end of the degree to obtain the diploma every student have to complete three months of training in a company. In my case, I ended up templating OS&rsquo;s and repairing PC&rsquo;s and Laptops in a <strong>Hewlett Packard</strong> partner offices. I learned a lot during the practices and meet great people which I&rsquo;m still in touch. Unfortunately, when the training period finished there was no chance to hire me as an employee.
+I and a classmate started working together as a freelance doing all kind of computer repairs and servers management for small size companies while doing some active job searching and continuous interviews.</p>
+
+<p>One year after that, march <strong>2011</strong>, my journey at bigger companies started with a position in an operations team <sup>24</sup>&frasl;<sub>7</sub> in <strong>Banco Santander</strong>. During this period I grow-up my global system knowledge. The advantages of working in a bank are that they have very heterogeneous systems, you can see all kind of machines and OS&rsquo;s and architectures, from <strong>IBM Host</strong> to distributed systems with Windows, Linux. One year later plus a good understanding of the many environments in my daily functions, I decided to try to move forward in my career. But that was impossible at that moment in my concrete department. So started looking for opportunities in other companies.</p>
+
+<p>Not much later in <strong>2012</strong> I changed to a smaller company which was a provider of another of the most important banks in Spain <strong>BBVA</strong>. There I made a big step forward joining the rising trend of <strong>Cloud Computing</strong>. My boss role and also mine was to manage the brand new <strong>Continuous Integration</strong> services like <strong>Hudson/Jenkins, Nexus, Sonar</strong> and some other <strong>Agile</strong> software <strong>Jira, Confluence</strong> hosted on <strong>AWS EC2</strong>. Yes, I&rsquo;m talking about <strong>Java + Maven</strong> stack. The whole thing was to improve builds, testing and deployment times. Also, make developers life easier. The resources limitation and the fact we were an only two-man army, I and my boss (also doing management part) force us to automate things as much as possible. Self-service to create new projects in our CI platform and project management tools. The builds in Jenkins used the EC2 plugin to dynamically provision agents when needed. Bring up ephemeral machines to test the applications.
+We also made some steps forward into <strong>Continuous Delivery</strong> in some of the core pieces which occasionally needed to deploy some critical bug fixes ASAP. I know from good collages that this automation is still serving in daily production, some of them re-written in other languages but the logic remains the same.</p>
+
+<p>For me, this experience resulted very rich from an innovation point of view. Till that moment I was barely familiar with cloud providers like AWS.</p>
+
+<p>Somehow all my <strong>CI/CD</strong> experience brings me to the innovation team at the same company. In <strong>2014</strong> a had a chance to join the great team for a large scale project which needed a lot of automation skills and dealing with some bleeding-edge tools like <strong>Docker</strong>, <strong>Mesos</strong>, and yes, <strong>Kubernetes</strong>. The whole thing required to acquire a solid knowledge of distributed systems, containers and <strong>Event Sourcing</strong> pattern. Our mission was to create a highly scalable cloud-agnostic <strong>microservices</strong> system. At that moment almost every tool was in <strong>alpha</strong> or <strong>beta</strong> version, we had issues with the container networking, orchestration, monitoring, and logging. Dealing with all this complexity made our team grow a lot of aspects. We ended up with an overall very stable microservices &ldquo;platform&rdquo;. One thing I&rsquo;m very proud of is that we achieved a local development environment to be the same as our provisioned dev, pre and pro with the only difference of the services endpoints. The whole experience forced us, me, to start acquiring developer skills.</p>
+
+<p>This is how I become a DevOps Engineer and started improving my programming skills.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
